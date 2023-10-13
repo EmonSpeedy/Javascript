@@ -1,0 +1,14 @@
+let nums = [22, 54, 23, 98, 10];
+console.log(nums);
+let s = nums.toString();
+console.log(s, typeof s);
+let a = nums.join('_');
+console.log(a);
+let b = nums.pop();
+console.log(b, nums);
+nums.push(33);
+console.log(nums, nums.length);
+let val1 = nums.shift();
+console.log(val1);
+nums.unshift(111);
+console.log(nums);
